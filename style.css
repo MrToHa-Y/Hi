@@ -1,0 +1,442 @@
+@font-face {
+    font-weight: 1200;
+    font-family: optima itali;
+    src: url("fonts/optima_bold.ttf");
+}
+
+@font-face {
+    font-weight: 1200;
+    font-family: trajan;
+    src: url("fonts/trajanpro_bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p{
+    font-family: "trajan", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.squarespace-cdn.com/content/v1/5cd2555994d71a16b3b6ffc1/1597794215646-OQYJF8XJTYEAHI62MLUH/FOG_7_070+copy.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 800px;
+    width: 1519px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-radius: 5px;
+    justify-content: center;
+    transition: background-color 0.9s ease;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.info1 {
+    background-color: aqua;
+}
+.head:hover {
+    background-color: whitesmoke;
+}
+
+.head>a{
+    margin: 10px;
+    color: black;
+    text-decoration: none; 
+    font-family: "optima itali", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 0px;
+    transition: transform 0.9s ease;
+}
+
+.head>a:hover {
+    transform: translateY(-10px);
+}
+
+.head>img{
+    height: 75px;
+}
+
+.nal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.nal>img{
+    height: 450px;
+    margin-left: 100px;
+}
+
+.his{
+    margin-left: 120px;
+}
+
+.nal>.his>h1{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+.nal>.his>p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nal>.his>a{
+    display: block;
+    margin: 10px 50px 0px 790px;
+    color: black;
+    font-family: "optima itali", sans-serif;
+    font-size: 20px;
+    border: black solid 3px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aph{
+    width: 1000px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.aph>h1{
+    margin: 10px;
+}
+
+.aph>p{
+    font-size: 13px;
+}
+
+.gal{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.gal>img{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.pro{
+    height: 550px;
+    width: 1519px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.shopify.com/s/files/1/0713/6869/articles/FOG_THE_BLACK_COLLECTION-BANNER.png?v=1686637146");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.pro>h1{
+    margin: 40px;
+    border-bottom: black solid 3px; 
+}
+
+.shka{
+    width: 650px;
+}
+
+.shka>div{
+    margin: 30px;
+}
+
+.shka>div>p{
+    font-size: 13px;
+}
+
+.shka>div>img{
+    width: 400px;
+}
+
+.adv{
+    display: flex;
+}
+
+.adv>img{
+    height: 220px;
+    margin: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.adv>div>h1{
+    font-size: 17px;
+}
+
+.adv>div>p{
+    font-size: 13px;
+    margin: 10px 10px 10px 0px;
+    width: 160px;
+}
+
+.col>h1{
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sec1{
+    display: flex;
+}
+
+.sec1>img{
+    height: 466px;
+    border: black solid 2px;
+    margin: 2px;
+}
+
+.sec2{
+    display: flex;
+}
+
+.sec2>img{
+    height: 466px;
+    border: black solid 2px;
+    margin: 2px;
+}
+
+.col2{
+    height: 900px; 
+    width: 1506px;
+    border: rgb(65, 65, 65) solid 2px;
+    margin: 2px;
+}
+
+.vid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.vid>h1{
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.vid>p{
+    margin: 30px;
+    width: 900px;
+    font-size: 13px;
+}
+
+iframe{
+    margin-top: 50px;
+}
+
+.pim{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pim>h1{
+    margin: 100px 20px 20px 20px;
+}
+
+.kil{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.kil>div{
+    margin: 20px;
+    text-align: start;
+}
+
+.kil>div>img{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.kil>div>p{
+    margin: 10px;
+}
+
+.dil{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dil>div{
+    margin: 20px;
+    text-align: start;
+}
+
+.dil>div>img{
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.tag{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+}
+
+.tag>div{
+    margin: 30px;
+    width: 400px;
+}
+
+.num{
+    display: flex;
+    align-items: start;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.tag>div>p{
+    margin: 10px;
+}
+
+.bra{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bra>h1{
+    margin: 40px;
+}
+
+.bra>div>img{
+    height: 100px;
+    margin: 30px 80px 30px 80px;
+}
+
+.eml{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.eml>h1{
+    margin: 10px;
+    margin-top: 160px;
+}
+
+.eml>p{
+    width: 400px;
+    margin: 0px 10px 20px 10px;
+}
+
+input[type="text"] {
+    border: black solid 1px;
+    margin: 10px;
+    font-family: "trajan", sans-serif;
+    font-size: 12px;
+    padding: 12px;
+    transition: font-size 0.5s;
+}
+
+input[type="text"]:hover{
+    font-size: 13px;
+}
+
+.nam{
+    height: 40px;
+    width: 400px;
+}
+
+.ema{
+    height: 40px;
+    width: 400px;
+}
+
+.sug{
+    height: 40px;
+    width: 820px;
+}
+
+.com{
+    height: 150px;
+    width: 820px;
+}
+
+.eml>a{
+    color: black;
+    border: black solid 3px;
+    border-radius: 17px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "optima itali", sans-serif;
+    margin: 10px;
+    margin-bottom: 60px;
+    padding: 10px 50px 10px 50px;
+}
+
+footer{
+    height: 250px;
+    width: 1519px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.aft{
+    width: 200px;
+}
+
+footer>div{
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>div>p{
+    color: white;
+    font-size: 12px;
+    margin: 5px 5px 5px 0px;
+}
+
+footer>div>h1{
+    color: white;
+    font-size: 15px;
+    margin: 10px 10px 10px 0px;
+}
+
+footer>div>a{
+    color: white;
+    font-family: "optima itali", sans-serif;
+    font-size: 13px;
+    margin: 5px;
+}
+
